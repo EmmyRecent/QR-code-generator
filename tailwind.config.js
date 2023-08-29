@@ -9,7 +9,11 @@ module.exports = {
       colors: {
         "color-primary": "#262a2f",
         "color-secondary": "#494eea",
-      }
+      },
+
+      boxShadow: {
+        'shadow': "0 10px 10px rgba(0, 0, 0, 0.1)",
+      },
     },
 
     container: {
@@ -22,4 +26,3 @@ module.exports = {
   },
   plugins: [],
 }
-
