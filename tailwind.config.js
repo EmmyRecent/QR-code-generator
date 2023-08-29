@@ -5,7 +5,19 @@ module.exports = {
     "./index.html",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "color-primary": "#262a2f",
+      }
+    },
+
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: "20px",
+        md: "50px",
+      }
+    }
   },
   plugins: [],
 }
